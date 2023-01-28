@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         for(;;) {
-            System.out.println("Введите значения с пробелами между знаками!");
+            System.out.println("Введите значения с пробелами между знаками! Для выхода - нажать q");
             Scanner scanner = new Scanner(System.in);
             String expr = scanner.nextLine();
             if(expr.equals("q"))
